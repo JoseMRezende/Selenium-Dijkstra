@@ -1,7 +1,8 @@
+import random
+import time
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
-import random
 
 nav = webdriver.Chrome(executable_path="C:\\Users\\Rezende\\Documents\\chromedriver.exe")
 nav.maximize_window()
