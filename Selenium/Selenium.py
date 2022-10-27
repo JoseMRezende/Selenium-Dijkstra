@@ -4,7 +4,6 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-counter = 0
 stop = False
 init = True
 
@@ -17,6 +16,7 @@ while init == True:
         PrimaryBlock = '/html/body/app-root/app-board/div/div[$$Vertical$$]/div[$$Horizontal$$]/app-node/div'
         ButtonPlay = '/html/body/app-root/app-header/div/button'
         nav.get('https://ng-pathfinder.netlify.app')
+        counter = 0
         while stop == False:
             x = random.randrange(1,46)
             y = random.randrange(1,21)
