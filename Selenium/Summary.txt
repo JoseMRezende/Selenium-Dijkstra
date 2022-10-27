@@ -1,0 +1,6 @@
+Project Selenium and Dijkstra
+
+-Automatic wall maker
+-Testing Dijkstra code
+-Looking for trouble and bugs
+-Getting to know frameWork Selenium
